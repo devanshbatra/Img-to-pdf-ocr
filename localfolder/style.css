@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right, #ee9ca7, #ffdde1);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container h1{
+    font-size: 4rem;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+.container h4{
+    font-size: 2.5rem;
+    font-family: 'Long Cang', cursive;
+    color: red;
+    position: absolute;
+    top: 80px;
+    right: 350px;
+}
+form{
+    margin: 40px;
+    display: flex;
+}
+input,
+button{
+    font-size: 1.3rem;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+button{
+    color: white;
+    background-color: rgb(233, 47, 47);
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 9px 15px;
+    cursor: pointer;
+    margin: 10px;
+    transition: all 0.3s ease;
+}
+button:hover{
+    color: black;
+    border: 2px solid black;
+    background-color: transparent;
+}
+input{
+    color: white;
+    background-color: rgb(233, 47, 47);
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 9px 15px;
+    cursor: pointer;
+}
